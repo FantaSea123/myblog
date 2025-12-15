@@ -1,0 +1,6 @@
+baseURL = "https://my-blog.pages.dev/"  # 先用临时的，稍后会改
+languageCode = "zh-cn"
+title = "3anta41e的BL0G"
+theme = "PaperMod"
+
+# ... 其他配置保持不变

@@ -1,0 +1,80 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-cn"
+title = "3anta41e的BL0G"
+theme = "PaperMod"
+hasCJKLanguage = true
+
+[params]
+  author = "3anta41e"
+  description = "记录我与信息安全的学习之旅"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  defaultTheme = "auto"
+
+  # 启用 Profile Mode（个人简介模式）
+  [params.profileMode]
+    enabled = true
+    title = "3anta41e" # 可选，默认使用站点标题
+    subtitle = "信息安全 | 渗透测试 | CTF爱好者 |老菜老菜le"
+    imageUrl = "avatar.jpg" # 头像路径，放在 static/ 目录下
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "我的头像"
+    
+    [[params.profileMode.buttons]]
+      name = "📝 my bl0g"
+      url = "/posts"
+    
+    [[params.profileMode.buttons]]
+      name = "🏷️ 标签"
+      url = "/tags"
+    
+    [[params.profileMode.buttons]]
+      name = "📚 归档"
+      url = "/archives"
+
+  # 社交链接
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:2026788615@qq.com"
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/你的用户名"
+  
+  # [[params.socialIcons]]
+  #   name = "twitter"
+  #   url = "https://twitter.com/你的用户名"
+
+# 菜单配置
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 30
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 40
+
+# 输出格式（启用归档页面）
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
