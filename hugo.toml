@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://00928689.myblog-9xz.pages.dev/"
 languageCode = "zh-cn"
 title = "3anta41e的BL0G"
 theme = "PaperMod"
@@ -17,12 +17,14 @@ hasCJKLanguage = true
   # 启用 Profile Mode（个人简介模式）
   [params.profileMode]
     enabled = true
-    title = "3anta41e" # 可选，默认使用站点标题
-    subtitle = "信息安全 | 渗透测试 | CTF爱好者 |老菜老菜le"
-    imageUrl = "avatar.jpg" # 头像路径，放在 static/ 目录下
-    imageWidth = 120
-    imageHeight = 120
-    imageTitle = "我的头像"
+    title = "3anta41e"
+    subtitle = "信息安全 | 渗透测试 | CTF爱好者 | 老菜老菜le"
+    
+    # 👇 添加这些头像配置
+    imageUrl = "avatar.jpg"        # 头像路径
+    imageWidth = 120               # 头像宽度
+    imageHeight = 120              # 头像高度
+    imageTitle = "3anta41e"        # 头像标题
     
     [[params.profileMode.buttons]]
       name = "📝 my bl0g"
@@ -43,11 +45,7 @@ hasCJKLanguage = true
   
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/你的用户名"
-  
-  # [[params.socialIcons]]
-  #   name = "twitter"
-  #   url = "https://twitter.com/你的用户名"
+    url = "https://github.com/FantaSea123"  # 👈 改成你的用户名
 
 # 菜单配置
 [menu]
